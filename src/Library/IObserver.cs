@@ -8,6 +8,6 @@ namespace Observer
 {
     public interface IObserver
     {
-        void Actualizar(Temperature temperature);
+        void Update(Temperature temperature);
     }
 }

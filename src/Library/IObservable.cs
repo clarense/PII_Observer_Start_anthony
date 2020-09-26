@@ -6,8 +6,8 @@ namespace Observer
 {
     public interface IObservable
     {        
-        void Suscribirme(IObserver Observer);
-        void Desuscribirse (IObserver Observer);
+        void Subscribe(IObserver Observer);
+        void Unsubscribe (IObserver Observer);
 
     }
 }
